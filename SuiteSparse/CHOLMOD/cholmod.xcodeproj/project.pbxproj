@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70E785231BD6F4AB006949CA /* cholmod_check.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783C91BD6F4AB006949CA /* cholmod_check.c */; settings = {ASSET_TAGS = (); }; };
+		70E785241BD6F4AB006949CA /* cholmod_read.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783CA1BD6F4AB006949CA /* cholmod_read.c */; settings = {ASSET_TAGS = (); }; };
+		70E785251BD6F4AB006949CA /* cholmod_write.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783CB1BD6F4AB006949CA /* cholmod_write.c */; settings = {ASSET_TAGS = (); }; };
+		70E785261BD6F4AB006949CA /* cholmod_amd.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783CF1BD6F4AB006949CA /* cholmod_amd.c */; settings = {ASSET_TAGS = (); }; };
+		70E785271BD6F4AB006949CA /* cholmod_analyze.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783D01BD6F4AB006949CA /* cholmod_analyze.c */; settings = {ASSET_TAGS = (); }; };
+		70E785281BD6F4AB006949CA /* cholmod_colamd.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783D11BD6F4AB006949CA /* cholmod_colamd.c */; settings = {ASSET_TAGS = (); }; };
+		70E785291BD6F4AB006949CA /* cholmod_etree.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783D21BD6F4AB006949CA /* cholmod_etree.c */; settings = {ASSET_TAGS = (); }; };
+		70E7852A1BD6F4AB006949CA /* cholmod_factorize.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783D31BD6F4AB006949CA /* cholmod_factorize.c */; settings = {ASSET_TAGS = (); }; };
+		70E7852B1BD6F4AB006949CA /* cholmod_postorder.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783D41BD6F4AB006949CA /* cholmod_postorder.c */; settings = {ASSET_TAGS = (); }; };
+		70E7852C1BD6F4AB006949CA /* cholmod_rcond.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783D51BD6F4AB006949CA /* cholmod_rcond.c */; settings = {ASSET_TAGS = (); }; };
+		70E7852D1BD6F4AB006949CA /* cholmod_resymbol.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783D61BD6F4AB006949CA /* cholmod_resymbol.c */; settings = {ASSET_TAGS = (); }; };
+		70E7852E1BD6F4AB006949CA /* cholmod_rowcolcounts.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783D71BD6F4AB006949CA /* cholmod_rowcolcounts.c */; settings = {ASSET_TAGS = (); }; };
+		70E7852F1BD6F4AB006949CA /* cholmod_rowfac.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783D81BD6F4AB006949CA /* cholmod_rowfac.c */; settings = {ASSET_TAGS = (); }; };
+		70E785301BD6F4AB006949CA /* cholmod_solve.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783D91BD6F4AB006949CA /* cholmod_solve.c */; settings = {ASSET_TAGS = (); }; };
+		70E785311BD6F4AB006949CA /* cholmod_spsolve.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783DA1BD6F4AB006949CA /* cholmod_spsolve.c */; settings = {ASSET_TAGS = (); }; };
+		70E785361BD6F4AB006949CA /* cholmod_aat.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783E21BD6F4AB006949CA /* cholmod_aat.c */; settings = {ASSET_TAGS = (); }; };
+		70E785371BD6F4AB006949CA /* cholmod_add.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783E31BD6F4AB006949CA /* cholmod_add.c */; settings = {ASSET_TAGS = (); }; };
+		70E785381BD6F4AB006949CA /* cholmod_band.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783E41BD6F4AB006949CA /* cholmod_band.c */; settings = {ASSET_TAGS = (); }; };
+		70E785391BD6F4AB006949CA /* cholmod_change_factor.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783E51BD6F4AB006949CA /* cholmod_change_factor.c */; settings = {ASSET_TAGS = (); }; };
+		70E7853A1BD6F4AB006949CA /* cholmod_common.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783E61BD6F4AB006949CA /* cholmod_common.c */; settings = {ASSET_TAGS = (); }; };
+		70E7853B1BD6F4AB006949CA /* cholmod_complex.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783E71BD6F4AB006949CA /* cholmod_complex.c */; settings = {ASSET_TAGS = (); }; };
+		70E7853C1BD6F4AB006949CA /* cholmod_copy.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783E81BD6F4AB006949CA /* cholmod_copy.c */; settings = {ASSET_TAGS = (); }; };
+		70E7853D1BD6F4AB006949CA /* cholmod_dense.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783E91BD6F4AB006949CA /* cholmod_dense.c */; settings = {ASSET_TAGS = (); }; };
+		70E7853E1BD6F4AB006949CA /* cholmod_error.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783EA1BD6F4AB006949CA /* cholmod_error.c */; settings = {ASSET_TAGS = (); }; };
+		70E7853F1BD6F4AB006949CA /* cholmod_factor.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783EB1BD6F4AB006949CA /* cholmod_factor.c */; settings = {ASSET_TAGS = (); }; };
+		70E785401BD6F4AB006949CA /* cholmod_memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783EC1BD6F4AB006949CA /* cholmod_memory.c */; settings = {ASSET_TAGS = (); }; };
+		70E785411BD6F4AB006949CA /* cholmod_sparse.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783ED1BD6F4AB006949CA /* cholmod_sparse.c */; settings = {ASSET_TAGS = (); }; };
+		70E785421BD6F4AB006949CA /* cholmod_transpose.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783EE1BD6F4AB006949CA /* cholmod_transpose.c */; settings = {ASSET_TAGS = (); }; };
+		70E785431BD6F4AB006949CA /* cholmod_triplet.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783EF1BD6F4AB006949CA /* cholmod_triplet.c */; settings = {ASSET_TAGS = (); }; };
+		70E785441BD6F4AB006949CA /* cholmod_version.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783F01BD6F4AB006949CA /* cholmod_version.c */; settings = {ASSET_TAGS = (); }; };
+		70E785AE1BD6F4AC006949CA /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 70E784721BD6F4AB006949CA /* Makefile */; settings = {ASSET_TAGS = (); }; };
+		70E785AF1BD6F4AC006949CA /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 70E784731BD6F4AB006949CA /* Makefile */; settings = {ASSET_TAGS = (); }; };
+		70E785B01BD6F4AC006949CA /* cholmod_drop.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E784751BD6F4AB006949CA /* cholmod_drop.c */; settings = {ASSET_TAGS = (); }; };
+		70E785B11BD6F4AC006949CA /* cholmod_horzcat.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E784761BD6F4AB006949CA /* cholmod_horzcat.c */; settings = {ASSET_TAGS = (); }; };
+		70E785B21BD6F4AC006949CA /* cholmod_norm.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E784771BD6F4AB006949CA /* cholmod_norm.c */; settings = {ASSET_TAGS = (); }; };
+		70E785B31BD6F4AC006949CA /* cholmod_scale.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E784781BD6F4AB006949CA /* cholmod_scale.c */; settings = {ASSET_TAGS = (); }; };
+		70E785B41BD6F4AC006949CA /* cholmod_sdmult.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E784791BD6F4AB006949CA /* cholmod_sdmult.c */; settings = {ASSET_TAGS = (); }; };
+		70E785B51BD6F4AC006949CA /* cholmod_ssmult.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E7847A1BD6F4AB006949CA /* cholmod_ssmult.c */; settings = {ASSET_TAGS = (); }; };
+		70E785B61BD6F4AC006949CA /* cholmod_submatrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E7847B1BD6F4AB006949CA /* cholmod_submatrix.c */; settings = {ASSET_TAGS = (); }; };
+		70E785B71BD6F4AC006949CA /* cholmod_symmetry.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E7847C1BD6F4AB006949CA /* cholmod_symmetry.c */; settings = {ASSET_TAGS = (); }; };
+		70E785B81BD6F4AC006949CA /* cholmod_vertcat.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E7847D1BD6F4AB006949CA /* cholmod_vertcat.c */; settings = {ASSET_TAGS = (); }; };
+		70E785BA1BD6F4AC006949CA /* cholmod_rowadd.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E784821BD6F4AB006949CA /* cholmod_rowadd.c */; settings = {ASSET_TAGS = (); }; };
+		70E785BB1BD6F4AC006949CA /* cholmod_rowdel.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E784831BD6F4AB006949CA /* cholmod_rowdel.c */; settings = {ASSET_TAGS = (); }; };
+		70E785BC1BD6F4AC006949CA /* cholmod_updown.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E784841BD6F4AB006949CA /* cholmod_updown.c */; settings = {ASSET_TAGS = (); }; };
+		70E785BF1BD6F4AC006949CA /* cholmod_camd.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E7848A1BD6F4AB006949CA /* cholmod_camd.c */; settings = {ASSET_TAGS = (); }; };
+		70E785C01BD6F4AC006949CA /* cholmod_ccolamd.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E7848B1BD6F4AB006949CA /* cholmod_ccolamd.c */; settings = {ASSET_TAGS = (); }; };
+		70E785C11BD6F4AC006949CA /* cholmod_csymamd.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E7848C1BD6F4AB006949CA /* cholmod_csymamd.c */; settings = {ASSET_TAGS = (); }; };
+		70E785C31BD6F4AC006949CA /* cholmod_nesdis.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E7848E1BD6F4AB006949CA /* cholmod_nesdis.c */; settings = {ASSET_TAGS = (); }; };
+		70E785C51BD6F4AC006949CA /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 70E784941BD6F4AB006949CA /* Makefile */; settings = {ASSET_TAGS = (); }; };
+		70E785C61BD6F4AC006949CA /* SuiteSparse_config.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E784961BD6F4AB006949CA /* SuiteSparse_config.c */; settings = {ASSET_TAGS = (); }; };
+		70E785C81BD6F4AC006949CA /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 70E784A11BD6F4AB006949CA /* Makefile */; settings = {ASSET_TAGS = (); }; };
+		70E785C91BD6F4AC006949CA /* xerbla.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E784A21BD6F4AB006949CA /* xerbla.c */; settings = {ASSET_TAGS = (); }; };
+		70E785CA1BD6F4AC006949CA /* xerbla.f in Sources */ = {isa = PBXBuildFile; fileRef = 70E784A31BD6F4AB006949CA /* xerbla.f */; settings = {ASSET_TAGS = (); }; };
+		70E785CB1BD6F4AC006949CA /* cholmod_super_numeric.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E784A61BD6F4AB006949CA /* cholmod_super_numeric.c */; settings = {ASSET_TAGS = (); }; };
+		70E785CC1BD6F4AC006949CA /* cholmod_super_solve.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E784A71BD6F4AB006949CA /* cholmod_super_solve.c */; settings = {ASSET_TAGS = (); }; };
+		70E785CD1BD6F4AC006949CA /* cholmod_super_symbolic.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E784A81BD6F4AB006949CA /* cholmod_super_symbolic.c */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		70E783B21BD6F2D2006949CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		70E783B41BD6F2D2006949CA /* libcholmod.temp_caseinsensitive_rename.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcholmod.temp_caseinsensitive_rename.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		70E783C91BD6F4AB006949CA /* cholmod_check.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_check.c; sourceTree = "<group>"; };
+		70E783CA1BD6F4AB006949CA /* cholmod_read.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_read.c; sourceTree = "<group>"; };
+		70E783CB1BD6F4AB006949CA /* cholmod_write.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_write.c; sourceTree = "<group>"; };
+		70E783CC1BD6F4AB006949CA /* lesser.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lesser.txt; sourceTree = "<group>"; };
+		70E783CD1BD6F4AB006949CA /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		70E783CF1BD6F4AB006949CA /* cholmod_amd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_amd.c; sourceTree = "<group>"; };
+		70E783D01BD6F4AB006949CA /* cholmod_analyze.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_analyze.c; sourceTree = "<group>"; };
+		70E783D11BD6F4AB006949CA /* cholmod_colamd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_colamd.c; sourceTree = "<group>"; };
+		70E783D21BD6F4AB006949CA /* cholmod_etree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_etree.c; sourceTree = "<group>"; };
+		70E783D31BD6F4AB006949CA /* cholmod_factorize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_factorize.c; sourceTree = "<group>"; };
+		70E783D41BD6F4AB006949CA /* cholmod_postorder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_postorder.c; sourceTree = "<group>"; };
+		70E783D51BD6F4AB006949CA /* cholmod_rcond.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_rcond.c; sourceTree = "<group>"; };
+		70E783D61BD6F4AB006949CA /* cholmod_resymbol.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_resymbol.c; sourceTree = "<group>"; };
+		70E783D71BD6F4AB006949CA /* cholmod_rowcolcounts.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_rowcolcounts.c; sourceTree = "<group>"; };
+		70E783D81BD6F4AB006949CA /* cholmod_rowfac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_rowfac.c; sourceTree = "<group>"; };
+		70E783D91BD6F4AB006949CA /* cholmod_solve.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_solve.c; sourceTree = "<group>"; };
+		70E783DA1BD6F4AB006949CA /* cholmod_spsolve.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_spsolve.c; sourceTree = "<group>"; };
+		70E783DB1BD6F4AB006949CA /* lesser.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lesser.txt; sourceTree = "<group>"; };
+		70E783DC1BD6F4AB006949CA /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		70E783E21BD6F4AB006949CA /* cholmod_aat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_aat.c; sourceTree = "<group>"; };
+		70E783E31BD6F4AB006949CA /* cholmod_add.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_add.c; sourceTree = "<group>"; };
+		70E783E41BD6F4AB006949CA /* cholmod_band.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_band.c; sourceTree = "<group>"; };
+		70E783E51BD6F4AB006949CA /* cholmod_change_factor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_change_factor.c; sourceTree = "<group>"; };
+		70E783E61BD6F4AB006949CA /* cholmod_common.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_common.c; sourceTree = "<group>"; };
+		70E783E71BD6F4AB006949CA /* cholmod_complex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_complex.c; sourceTree = "<group>"; };
+		70E783E81BD6F4AB006949CA /* cholmod_copy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_copy.c; sourceTree = "<group>"; };
+		70E783E91BD6F4AB006949CA /* cholmod_dense.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_dense.c; sourceTree = "<group>"; };
+		70E783EA1BD6F4AB006949CA /* cholmod_error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_error.c; sourceTree = "<group>"; };
+		70E783EB1BD6F4AB006949CA /* cholmod_factor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_factor.c; sourceTree = "<group>"; };
+		70E783EC1BD6F4AB006949CA /* cholmod_memory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_memory.c; sourceTree = "<group>"; };
+		70E783ED1BD6F4AB006949CA /* cholmod_sparse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_sparse.c; sourceTree = "<group>"; };
+		70E783EE1BD6F4AB006949CA /* cholmod_transpose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_transpose.c; sourceTree = "<group>"; };
+		70E783EF1BD6F4AB006949CA /* cholmod_triplet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_triplet.c; sourceTree = "<group>"; };
+		70E783F01BD6F4AB006949CA /* cholmod_version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_version.c; sourceTree = "<group>"; };
+		70E783F11BD6F4AB006949CA /* lesser.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lesser.txt; sourceTree = "<group>"; };
+		70E783F21BD6F4AB006949CA /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		70E783F81BD6F4AB006949CA /* cholmod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cholmod.h; sourceTree = "<group>"; };
+		70E783F91BD6F4AB006949CA /* cholmod_blas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cholmod_blas.h; sourceTree = "<group>"; };
+		70E783FA1BD6F4AB006949CA /* cholmod_camd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cholmod_camd.h; sourceTree = "<group>"; };
+		70E783FB1BD6F4AB006949CA /* cholmod_check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cholmod_check.h; sourceTree = "<group>"; };
+		70E783FC1BD6F4AB006949CA /* cholmod_cholesky.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cholmod_cholesky.h; sourceTree = "<group>"; };
+		70E783FD1BD6F4AB006949CA /* cholmod_complexity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cholmod_complexity.h; sourceTree = "<group>"; };
+		70E783FE1BD6F4AB006949CA /* cholmod_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cholmod_config.h; sourceTree = "<group>"; };
+		70E783FF1BD6F4AB006949CA /* cholmod_core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cholmod_core.h; sourceTree = "<group>"; };
+		70E784001BD6F4AB006949CA /* cholmod_function.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cholmod_function.h; sourceTree = "<group>"; };
+		70E784011BD6F4AB006949CA /* cholmod_gpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cholmod_gpu.h; sourceTree = "<group>"; };
+		70E784021BD6F4AB006949CA /* cholmod_gpu_kernels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cholmod_gpu_kernels.h; sourceTree = "<group>"; };
+		70E784031BD6F4AB006949CA /* cholmod_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cholmod_internal.h; sourceTree = "<group>"; };
+		70E784041BD6F4AB006949CA /* cholmod_io64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cholmod_io64.h; sourceTree = "<group>"; };
+		70E784051BD6F4AB006949CA /* cholmod_matrixops.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cholmod_matrixops.h; sourceTree = "<group>"; };
+		70E784061BD6F4AB006949CA /* cholmod_modify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cholmod_modify.h; sourceTree = "<group>"; };
+		70E784071BD6F4AB006949CA /* cholmod_partition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cholmod_partition.h; sourceTree = "<group>"; };
+		70E784081BD6F4AB006949CA /* cholmod_supernodal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cholmod_supernodal.h; sourceTree = "<group>"; };
+		70E784091BD6F4AB006949CA /* cholmod_template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cholmod_template.h; sourceTree = "<group>"; };
+		70E7840A1BD6F4AB006949CA /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		70E7840B1BD6F4AB006949CA /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		70E784721BD6F4AB006949CA /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		70E784731BD6F4AB006949CA /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		70E784751BD6F4AB006949CA /* cholmod_drop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_drop.c; sourceTree = "<group>"; };
+		70E784761BD6F4AB006949CA /* cholmod_horzcat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_horzcat.c; sourceTree = "<group>"; };
+		70E784771BD6F4AB006949CA /* cholmod_norm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_norm.c; sourceTree = "<group>"; };
+		70E784781BD6F4AB006949CA /* cholmod_scale.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_scale.c; sourceTree = "<group>"; };
+		70E784791BD6F4AB006949CA /* cholmod_sdmult.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_sdmult.c; sourceTree = "<group>"; };
+		70E7847A1BD6F4AB006949CA /* cholmod_ssmult.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_ssmult.c; sourceTree = "<group>"; };
+		70E7847B1BD6F4AB006949CA /* cholmod_submatrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_submatrix.c; sourceTree = "<group>"; };
+		70E7847C1BD6F4AB006949CA /* cholmod_symmetry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_symmetry.c; sourceTree = "<group>"; };
+		70E7847D1BD6F4AB006949CA /* cholmod_vertcat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_vertcat.c; sourceTree = "<group>"; };
+		70E7847E1BD6F4AB006949CA /* gpl.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gpl.txt; sourceTree = "<group>"; };
+		70E7847F1BD6F4AB006949CA /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		70E784821BD6F4AB006949CA /* cholmod_rowadd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_rowadd.c; sourceTree = "<group>"; };
+		70E784831BD6F4AB006949CA /* cholmod_rowdel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_rowdel.c; sourceTree = "<group>"; };
+		70E784841BD6F4AB006949CA /* cholmod_updown.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_updown.c; sourceTree = "<group>"; };
+		70E784851BD6F4AB006949CA /* gpl.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gpl.txt; sourceTree = "<group>"; };
+		70E784861BD6F4AB006949CA /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		70E7848A1BD6F4AB006949CA /* cholmod_camd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_camd.c; sourceTree = "<group>"; };
+		70E7848B1BD6F4AB006949CA /* cholmod_ccolamd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_ccolamd.c; sourceTree = "<group>"; };
+		70E7848C1BD6F4AB006949CA /* cholmod_csymamd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_csymamd.c; sourceTree = "<group>"; };
+		70E7848E1BD6F4AB006949CA /* cholmod_nesdis.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_nesdis.c; sourceTree = "<group>"; };
+		70E7848F1BD6F4AB006949CA /* lesser.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lesser.txt; sourceTree = "<group>"; };
+		70E784901BD6F4AB006949CA /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		70E784911BD6F4AB006949CA /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		70E784931BD6F4AB006949CA /* libsuitesparseconfig.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsuitesparseconfig.a; sourceTree = "<group>"; };
+		70E784941BD6F4AB006949CA /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		70E784951BD6F4AB006949CA /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		70E784961BD6F4AB006949CA /* SuiteSparse_config.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SuiteSparse_config.c; sourceTree = "<group>"; };
+		70E784971BD6F4AB006949CA /* SuiteSparse_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuiteSparse_config.h; sourceTree = "<group>"; };
+		70E784981BD6F4AB006949CA /* SuiteSparse_config.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuiteSparse_config.mk; sourceTree = "<group>"; };
+		70E784991BD6F4AB006949CA /* SuiteSparse_config_backslash.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuiteSparse_config_backslash.mk; sourceTree = "<group>"; };
+		70E7849A1BD6F4AB006949CA /* SuiteSparse_config_GPU_debug.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuiteSparse_config_GPU_debug.mk; sourceTree = "<group>"; };
+		70E7849B1BD6F4AB006949CA /* SuiteSparse_config_GPU_gcc.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuiteSparse_config_GPU_gcc.mk; sourceTree = "<group>"; };
+		70E7849C1BD6F4AB006949CA /* SuiteSparse_config_GPU_icc.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuiteSparse_config_GPU_icc.mk; sourceTree = "<group>"; };
+		70E7849D1BD6F4AB006949CA /* SuiteSparse_config_GPU_icc10.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuiteSparse_config_GPU_icc10.mk; sourceTree = "<group>"; };
+		70E7849E1BD6F4AB006949CA /* SuiteSparse_config_linux.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuiteSparse_config_linux.mk; sourceTree = "<group>"; };
+		70E784A01BD6F4AB006949CA /* libcerbla.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcerbla.a; sourceTree = "<group>"; };
+		70E784A11BD6F4AB006949CA /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		70E784A21BD6F4AB006949CA /* xerbla.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xerbla.c; sourceTree = "<group>"; };
+		70E784A31BD6F4AB006949CA /* xerbla.f */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.fortran; path = xerbla.f; sourceTree = "<group>"; };
+		70E784A41BD6F4AB006949CA /* xerbla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xerbla.h; sourceTree = "<group>"; };
+		70E784A61BD6F4AB006949CA /* cholmod_super_numeric.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_super_numeric.c; sourceTree = "<group>"; };
+		70E784A71BD6F4AB006949CA /* cholmod_super_solve.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_super_solve.c; sourceTree = "<group>"; };
+		70E784A81BD6F4AB006949CA /* cholmod_super_symbolic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cholmod_super_symbolic.c; sourceTree = "<group>"; };
+		70E784A91BD6F4AB006949CA /* gpl.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gpl.txt; sourceTree = "<group>"; };
+		70E784AA1BD6F4AB006949CA /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70E783B11BD6F2D2006949CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70E783AB1BD6F2D2006949CA = {
+			isa = PBXGroup;
+			children = (
+				70E783B61BD6F2D2006949CA /* CHOLMOD */,
+				70E783B51BD6F2D2006949CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70E783B51BD6F2D2006949CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70E783B41BD6F2D2006949CA /* libcholmod.temp_caseinsensitive_rename.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70E783B61BD6F2D2006949CA /* CHOLMOD */ = {
+			isa = PBXGroup;
+			children = (
+				70E783C81BD6F4AB006949CA /* Check */,
+				70E783CE1BD6F4AB006949CA /* Cholesky */,
+				70E783E11BD6F4AB006949CA /* Core */,
+				70E783F71BD6F4AB006949CA /* Include */,
+				70E7840C1BD6F4AB006949CA /* Lib */,
+				70E784731BD6F4AB006949CA /* Makefile */,
+				70E784741BD6F4AB006949CA /* MatrixOps */,
+				70E784811BD6F4AB006949CA /* Modify */,
+				70E784891BD6F4AB006949CA /* Partition */,
+				70E784911BD6F4AB006949CA /* README.txt */,
+				70E784921BD6F4AB006949CA /* SuiteSparse_config */,
+				70E784A51BD6F4AB006949CA /* Supernodal */,
+			);
+			path = CHOLMOD;
+			sourceTree = "<group>";
+		};
+		70E783C81BD6F4AB006949CA /* Check */ = {
+			isa = PBXGroup;
+			children = (
+				70E783C91BD6F4AB006949CA /* cholmod_check.c */,
+				70E783CA1BD6F4AB006949CA /* cholmod_read.c */,
+				70E783CB1BD6F4AB006949CA /* cholmod_write.c */,
+				70E783CC1BD6F4AB006949CA /* lesser.txt */,
+				70E783CD1BD6F4AB006949CA /* License.txt */,
+			);
+			path = Check;
+			sourceTree = "<group>";
+		};
+		70E783CE1BD6F4AB006949CA /* Cholesky */ = {
+			isa = PBXGroup;
+			children = (
+				70E783CF1BD6F4AB006949CA /* cholmod_amd.c */,
+				70E783D01BD6F4AB006949CA /* cholmod_analyze.c */,
+				70E783D11BD6F4AB006949CA /* cholmod_colamd.c */,
+				70E783D21BD6F4AB006949CA /* cholmod_etree.c */,
+				70E783D31BD6F4AB006949CA /* cholmod_factorize.c */,
+				70E783D41BD6F4AB006949CA /* cholmod_postorder.c */,
+				70E783D51BD6F4AB006949CA /* cholmod_rcond.c */,
+				70E783D61BD6F4AB006949CA /* cholmod_resymbol.c */,
+				70E783D71BD6F4AB006949CA /* cholmod_rowcolcounts.c */,
+				70E783D81BD6F4AB006949CA /* cholmod_rowfac.c */,
+				70E783D91BD6F4AB006949CA /* cholmod_solve.c */,
+				70E783DA1BD6F4AB006949CA /* cholmod_spsolve.c */,
+				70E783DB1BD6F4AB006949CA /* lesser.txt */,
+				70E783DC1BD6F4AB006949CA /* License.txt */,
+			);
+			path = Cholesky;
+			sourceTree = "<group>";
+		};
+		70E783E11BD6F4AB006949CA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				70E783E21BD6F4AB006949CA /* cholmod_aat.c */,
+				70E783E31BD6F4AB006949CA /* cholmod_add.c */,
+				70E783E41BD6F4AB006949CA /* cholmod_band.c */,
+				70E783E51BD6F4AB006949CA /* cholmod_change_factor.c */,
+				70E783E61BD6F4AB006949CA /* cholmod_common.c */,
+				70E783E71BD6F4AB006949CA /* cholmod_complex.c */,
+				70E783E81BD6F4AB006949CA /* cholmod_copy.c */,
+				70E783E91BD6F4AB006949CA /* cholmod_dense.c */,
+				70E783EA1BD6F4AB006949CA /* cholmod_error.c */,
+				70E783EB1BD6F4AB006949CA /* cholmod_factor.c */,
+				70E783EC1BD6F4AB006949CA /* cholmod_memory.c */,
+				70E783ED1BD6F4AB006949CA /* cholmod_sparse.c */,
+				70E783EE1BD6F4AB006949CA /* cholmod_transpose.c */,
+				70E783EF1BD6F4AB006949CA /* cholmod_triplet.c */,
+				70E783F01BD6F4AB006949CA /* cholmod_version.c */,
+				70E783F11BD6F4AB006949CA /* lesser.txt */,
+				70E783F21BD6F4AB006949CA /* License.txt */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		70E783F71BD6F4AB006949CA /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				70E783F81BD6F4AB006949CA /* cholmod.h */,
+				70E783F91BD6F4AB006949CA /* cholmod_blas.h */,
+				70E783FA1BD6F4AB006949CA /* cholmod_camd.h */,
+				70E783FB1BD6F4AB006949CA /* cholmod_check.h */,
+				70E783FC1BD6F4AB006949CA /* cholmod_cholesky.h */,
+				70E783FD1BD6F4AB006949CA /* cholmod_complexity.h */,
+				70E783FE1BD6F4AB006949CA /* cholmod_config.h */,
+				70E783FF1BD6F4AB006949CA /* cholmod_core.h */,
+				70E784001BD6F4AB006949CA /* cholmod_function.h */,
+				70E784011BD6F4AB006949CA /* cholmod_gpu.h */,
+				70E784021BD6F4AB006949CA /* cholmod_gpu_kernels.h */,
+				70E784031BD6F4AB006949CA /* cholmod_internal.h */,
+				70E784041BD6F4AB006949CA /* cholmod_io64.h */,
+				70E784051BD6F4AB006949CA /* cholmod_matrixops.h */,
+				70E784061BD6F4AB006949CA /* cholmod_modify.h */,
+				70E784071BD6F4AB006949CA /* cholmod_partition.h */,
+				70E784081BD6F4AB006949CA /* cholmod_supernodal.h */,
+				70E784091BD6F4AB006949CA /* cholmod_template.h */,
+				70E7840A1BD6F4AB006949CA /* License.txt */,
+				70E7840B1BD6F4AB006949CA /* README.txt */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		70E7840C1BD6F4AB006949CA /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				70E784721BD6F4AB006949CA /* Makefile */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		70E784741BD6F4AB006949CA /* MatrixOps */ = {
+			isa = PBXGroup;
+			children = (
+				70E784751BD6F4AB006949CA /* cholmod_drop.c */,
+				70E784761BD6F4AB006949CA /* cholmod_horzcat.c */,
+				70E784771BD6F4AB006949CA /* cholmod_norm.c */,
+				70E784781BD6F4AB006949CA /* cholmod_scale.c */,
+				70E784791BD6F4AB006949CA /* cholmod_sdmult.c */,
+				70E7847A1BD6F4AB006949CA /* cholmod_ssmult.c */,
+				70E7847B1BD6F4AB006949CA /* cholmod_submatrix.c */,
+				70E7847C1BD6F4AB006949CA /* cholmod_symmetry.c */,
+				70E7847D1BD6F4AB006949CA /* cholmod_vertcat.c */,
+				70E7847E1BD6F4AB006949CA /* gpl.txt */,
+				70E7847F1BD6F4AB006949CA /* License.txt */,
+			);
+			path = MatrixOps;
+			sourceTree = "<group>";
+		};
+		70E784811BD6F4AB006949CA /* Modify */ = {
+			isa = PBXGroup;
+			children = (
+				70E784821BD6F4AB006949CA /* cholmod_rowadd.c */,
+				70E784831BD6F4AB006949CA /* cholmod_rowdel.c */,
+				70E784841BD6F4AB006949CA /* cholmod_updown.c */,
+				70E784851BD6F4AB006949CA /* gpl.txt */,
+				70E784861BD6F4AB006949CA /* License.txt */,
+			);
+			path = Modify;
+			sourceTree = "<group>";
+		};
+		70E784891BD6F4AB006949CA /* Partition */ = {
+			isa = PBXGroup;
+			children = (
+				70E7848A1BD6F4AB006949CA /* cholmod_camd.c */,
+				70E7848B1BD6F4AB006949CA /* cholmod_ccolamd.c */,
+				70E7848C1BD6F4AB006949CA /* cholmod_csymamd.c */,
+				70E7848E1BD6F4AB006949CA /* cholmod_nesdis.c */,
+				70E7848F1BD6F4AB006949CA /* lesser.txt */,
+				70E784901BD6F4AB006949CA /* License.txt */,
+			);
+			path = Partition;
+			sourceTree = "<group>";
+		};
+		70E784921BD6F4AB006949CA /* SuiteSparse_config */ = {
+			isa = PBXGroup;
+			children = (
+				70E784931BD6F4AB006949CA /* libsuitesparseconfig.a */,
+				70E784941BD6F4AB006949CA /* Makefile */,
+				70E784951BD6F4AB006949CA /* README.txt */,
+				70E784961BD6F4AB006949CA /* SuiteSparse_config.c */,
+				70E784971BD6F4AB006949CA /* SuiteSparse_config.h */,
+				70E784981BD6F4AB006949CA /* SuiteSparse_config.mk */,
+				70E784991BD6F4AB006949CA /* SuiteSparse_config_backslash.mk */,
+				70E7849A1BD6F4AB006949CA /* SuiteSparse_config_GPU_debug.mk */,
+				70E7849B1BD6F4AB006949CA /* SuiteSparse_config_GPU_gcc.mk */,
+				70E7849C1BD6F4AB006949CA /* SuiteSparse_config_GPU_icc.mk */,
+				70E7849D1BD6F4AB006949CA /* SuiteSparse_config_GPU_icc10.mk */,
+				70E7849E1BD6F4AB006949CA /* SuiteSparse_config_linux.mk */,
+				70E7849F1BD6F4AB006949CA /* xerbla */,
+			);
+			path = SuiteSparse_config;
+			sourceTree = "<group>";
+		};
+		70E7849F1BD6F4AB006949CA /* xerbla */ = {
+			isa = PBXGroup;
+			children = (
+				70E784A01BD6F4AB006949CA /* libcerbla.a */,
+				70E784A11BD6F4AB006949CA /* Makefile */,
+				70E784A21BD6F4AB006949CA /* xerbla.c */,
+				70E784A31BD6F4AB006949CA /* xerbla.f */,
+				70E784A41BD6F4AB006949CA /* xerbla.h */,
+			);
+			path = xerbla;
+			sourceTree = "<group>";
+		};
+		70E784A51BD6F4AB006949CA /* Supernodal */ = {
+			isa = PBXGroup;
+			children = (
+				70E784A61BD6F4AB006949CA /* cholmod_super_numeric.c */,
+				70E784A71BD6F4AB006949CA /* cholmod_super_solve.c */,
+				70E784A81BD6F4AB006949CA /* cholmod_super_symbolic.c */,
+				70E784A91BD6F4AB006949CA /* gpl.txt */,
+				70E784AA1BD6F4AB006949CA /* License.txt */,
+			);
+			path = Supernodal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70E783B31BD6F2D2006949CA /* cholmod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70E783BD1BD6F2D2006949CA /* Build configuration list for PBXNativeTarget "cholmod" */;
+			buildPhases = (
+				70E783B01BD6F2D2006949CA /* Sources */,
+				70E783B11BD6F2D2006949CA /* Frameworks */,
+				70E783B21BD6F2D2006949CA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cholmod;
+			productName = CHOLMOD;
+			productReference = 70E783B41BD6F2D2006949CA /* libcholmod.temp_caseinsensitive_rename.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70E783AC1BD6F2D2006949CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Xin Sun";
+				TargetAttributes = {
+					70E783B31BD6F2D2006949CA = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 70E783AF1BD6F2D2006949CA /* Build configuration list for PBXProject "cholmod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 70E783AB1BD6F2D2006949CA;
+			productRefGroup = 70E783B51BD6F2D2006949CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70E783B31BD6F2D2006949CA /* cholmod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70E783B01BD6F2D2006949CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E785B61BD6F4AC006949CA /* cholmod_submatrix.c in Sources */,
+				70E785BA1BD6F4AC006949CA /* cholmod_rowadd.c in Sources */,
+				70E785371BD6F4AB006949CA /* cholmod_add.c in Sources */,
+				70E785B01BD6F4AC006949CA /* cholmod_drop.c in Sources */,
+				70E785B11BD6F4AC006949CA /* cholmod_horzcat.c in Sources */,
+				70E785C51BD6F4AC006949CA /* Makefile in Sources */,
+				70E785B41BD6F4AC006949CA /* cholmod_sdmult.c in Sources */,
+				70E785CD1BD6F4AC006949CA /* cholmod_super_symbolic.c in Sources */,
+				70E7852D1BD6F4AB006949CA /* cholmod_resymbol.c in Sources */,
+				70E7852B1BD6F4AB006949CA /* cholmod_postorder.c in Sources */,
+				70E7852A1BD6F4AB006949CA /* cholmod_factorize.c in Sources */,
+				70E785B51BD6F4AC006949CA /* cholmod_ssmult.c in Sources */,
+				70E785291BD6F4AB006949CA /* cholmod_etree.c in Sources */,
+				70E785241BD6F4AB006949CA /* cholmod_read.c in Sources */,
+				70E785BF1BD6F4AC006949CA /* cholmod_camd.c in Sources */,
+				70E785421BD6F4AB006949CA /* cholmod_transpose.c in Sources */,
+				70E785431BD6F4AB006949CA /* cholmod_triplet.c in Sources */,
+				70E785B71BD6F4AC006949CA /* cholmod_symmetry.c in Sources */,
+				70E785C91BD6F4AC006949CA /* xerbla.c in Sources */,
+				70E785C61BD6F4AC006949CA /* SuiteSparse_config.c in Sources */,
+				70E7853B1BD6F4AB006949CA /* cholmod_complex.c in Sources */,
+				70E785411BD6F4AB006949CA /* cholmod_sparse.c in Sources */,
+				70E785271BD6F4AB006949CA /* cholmod_analyze.c in Sources */,
+				70E785C31BD6F4AC006949CA /* cholmod_nesdis.c in Sources */,
+				70E785311BD6F4AB006949CA /* cholmod_spsolve.c in Sources */,
+				70E785361BD6F4AB006949CA /* cholmod_aat.c in Sources */,
+				70E785C11BD6F4AC006949CA /* cholmod_csymamd.c in Sources */,
+				70E785C01BD6F4AC006949CA /* cholmod_ccolamd.c in Sources */,
+				70E785441BD6F4AB006949CA /* cholmod_version.c in Sources */,
+				70E7853D1BD6F4AB006949CA /* cholmod_dense.c in Sources */,
+				70E7852E1BD6F4AB006949CA /* cholmod_rowcolcounts.c in Sources */,
+				70E785281BD6F4AB006949CA /* cholmod_colamd.c in Sources */,
+				70E785261BD6F4AB006949CA /* cholmod_amd.c in Sources */,
+				70E7853A1BD6F4AB006949CA /* cholmod_common.c in Sources */,
+				70E785B81BD6F4AC006949CA /* cholmod_vertcat.c in Sources */,
+				70E785231BD6F4AB006949CA /* cholmod_check.c in Sources */,
+				70E785CA1BD6F4AC006949CA /* xerbla.f in Sources */,
+				70E785B21BD6F4AC006949CA /* cholmod_norm.c in Sources */,
+				70E785CC1BD6F4AC006949CA /* cholmod_super_solve.c in Sources */,
+				70E7853F1BD6F4AB006949CA /* cholmod_factor.c in Sources */,
+				70E785301BD6F4AB006949CA /* cholmod_solve.c in Sources */,
+				70E785381BD6F4AB006949CA /* cholmod_band.c in Sources */,
+				70E785AF1BD6F4AC006949CA /* Makefile in Sources */,
+				70E785251BD6F4AB006949CA /* cholmod_write.c in Sources */,
+				70E785BC1BD6F4AC006949CA /* cholmod_updown.c in Sources */,
+				70E785CB1BD6F4AC006949CA /* cholmod_super_numeric.c in Sources */,
+				70E785BB1BD6F4AC006949CA /* cholmod_rowdel.c in Sources */,
+				70E7853E1BD6F4AB006949CA /* cholmod_error.c in Sources */,
+				70E785C81BD6F4AC006949CA /* Makefile in Sources */,
+				70E785B31BD6F4AC006949CA /* cholmod_scale.c in Sources */,
+				70E7852C1BD6F4AB006949CA /* cholmod_rcond.c in Sources */,
+				70E785391BD6F4AB006949CA /* cholmod_change_factor.c in Sources */,
+				70E7852F1BD6F4AB006949CA /* cholmod_rowfac.c in Sources */,
+				70E785AE1BD6F4AC006949CA /* Makefile in Sources */,
+				70E7853C1BD6F4AB006949CA /* cholmod_copy.c in Sources */,
+				70E785401BD6F4AB006949CA /* cholmod_memory.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		70E783BB1BD6F2D2006949CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Users/xinsun/Code/SuiteSparse/CCOLAMD/CCOLAMD/Include,
+					/Users/xinsun/Code/SuiteSparse/COLAMD/COLAMD/Include,
+					/Users/xinsun/Code/SuiteSparse/CAMD/CAMD/Include,
+					/Users/xinsun/Code/SuiteSparse/AMD/AMD/Include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		70E783BC1BD6F2D2006949CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Users/xinsun/Code/SuiteSparse/CCOLAMD/CCOLAMD/Include,
+					/Users/xinsun/Code/SuiteSparse/COLAMD/COLAMD/Include,
+					/Users/xinsun/Code/SuiteSparse/CAMD/CAMD/Include,
+					/Users/xinsun/Code/SuiteSparse/AMD/AMD/Include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70E783BE1BD6F2D2006949CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = NPARTITION;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CHOLMOD/Lib",
+					"$(PROJECT_DIR)/CHOLMOD/SuiteSparse_config",
+					"$(PROJECT_DIR)/CHOLMOD/SuiteSparse_config/xerbla",
+					/Users/xinsun/Code/SuiteSparse/prebuild,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = cholmod.temp_caseinsensitive_rename;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		70E783BF1BD6F2D2006949CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = NPARTITION;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CHOLMOD/Lib",
+					"$(PROJECT_DIR)/CHOLMOD/SuiteSparse_config",
+					"$(PROJECT_DIR)/CHOLMOD/SuiteSparse_config/xerbla",
+					/Users/xinsun/Code/SuiteSparse/prebuild,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = cholmod.temp_caseinsensitive_rename;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70E783AF1BD6F2D2006949CA /* Build configuration list for PBXProject "cholmod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E783BB1BD6F2D2006949CA /* Debug */,
+				70E783BC1BD6F2D2006949CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70E783BD1BD6F2D2006949CA /* Build configuration list for PBXNativeTarget "cholmod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E783BE1BD6F2D2006949CA /* Debug */,
+				70E783BF1BD6F2D2006949CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70E783AC1BD6F2D2006949CA /* Project object */;
+}

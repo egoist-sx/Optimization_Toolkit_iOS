@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70E7839E1BD6F278006949CA /* ccolamd.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E783831BD6F278006949CA /* ccolamd.o */; settings = {ASSET_TAGS = (); }; };
+		70E7839F1BD6F278006949CA /* ccolamd_l.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E783841BD6F278006949CA /* ccolamd_l.o */; settings = {ASSET_TAGS = (); }; };
+		70E783A01BD6F278006949CA /* libccolamd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E783851BD6F278006949CA /* libccolamd.a */; settings = {ASSET_TAGS = (); }; };
+		70E783A11BD6F278006949CA /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 70E783861BD6F278006949CA /* Makefile */; settings = {ASSET_TAGS = (); }; };
+		70E783A21BD6F278006949CA /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 70E783871BD6F278006949CA /* Makefile */; settings = {ASSET_TAGS = (); }; };
+		70E783A31BD6F278006949CA /* ccolamd.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E7838A1BD6F278006949CA /* ccolamd.c */; settings = {ASSET_TAGS = (); }; };
+		70E783A41BD6F278006949CA /* ccolamd_global.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E7838B1BD6F278006949CA /* ccolamd_global.c */; settings = {ASSET_TAGS = (); }; };
+		70E783A51BD6F278006949CA /* libsuitesparseconfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E7838D1BD6F278006949CA /* libsuitesparseconfig.a */; settings = {ASSET_TAGS = (); }; };
+		70E783A61BD6F278006949CA /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 70E7838E1BD6F278006949CA /* Makefile */; settings = {ASSET_TAGS = (); }; };
+		70E783A71BD6F278006949CA /* SuiteSparse_config.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E783901BD6F278006949CA /* SuiteSparse_config.c */; settings = {ASSET_TAGS = (); }; };
+		70E783A81BD6F278006949CA /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 70E7839A1BD6F278006949CA /* Makefile */; settings = {ASSET_TAGS = (); }; };
+		70E783A91BD6F278006949CA /* xerbla.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E7839B1BD6F278006949CA /* xerbla.c */; settings = {ASSET_TAGS = (); }; };
+		70E783AA1BD6F278006949CA /* xerbla.f in Sources */ = {isa = PBXBuildFile; fileRef = 70E7839C1BD6F278006949CA /* xerbla.f */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		70E783721BD6F192006949CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		70E783741BD6F192006949CA /* libCCOLAMD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCCOLAMD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		70E783811BD6F278006949CA /* ccolamd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccolamd.h; sourceTree = "<group>"; };
+		70E783831BD6F278006949CA /* ccolamd.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ccolamd.o; sourceTree = "<group>"; };
+		70E783841BD6F278006949CA /* ccolamd_l.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ccolamd_l.o; sourceTree = "<group>"; };
+		70E783851BD6F278006949CA /* libccolamd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libccolamd.a; sourceTree = "<group>"; };
+		70E783861BD6F278006949CA /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		70E783871BD6F278006949CA /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		70E783881BD6F278006949CA /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		70E7838A1BD6F278006949CA /* ccolamd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ccolamd.c; sourceTree = "<group>"; };
+		70E7838B1BD6F278006949CA /* ccolamd_global.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ccolamd_global.c; sourceTree = "<group>"; };
+		70E7838D1BD6F278006949CA /* libsuitesparseconfig.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsuitesparseconfig.a; sourceTree = "<group>"; };
+		70E7838E1BD6F278006949CA /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		70E7838F1BD6F278006949CA /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		70E783901BD6F278006949CA /* SuiteSparse_config.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SuiteSparse_config.c; sourceTree = "<group>"; };
+		70E783911BD6F278006949CA /* SuiteSparse_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuiteSparse_config.h; sourceTree = "<group>"; };
+		70E783921BD6F278006949CA /* SuiteSparse_config.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuiteSparse_config.mk; sourceTree = "<group>"; };
+		70E783931BD6F278006949CA /* SuiteSparse_config_backslash.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuiteSparse_config_backslash.mk; sourceTree = "<group>"; };
+		70E783941BD6F278006949CA /* SuiteSparse_config_GPU_debug.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuiteSparse_config_GPU_debug.mk; sourceTree = "<group>"; };
+		70E783951BD6F278006949CA /* SuiteSparse_config_GPU_gcc.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuiteSparse_config_GPU_gcc.mk; sourceTree = "<group>"; };
+		70E783961BD6F278006949CA /* SuiteSparse_config_GPU_icc.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuiteSparse_config_GPU_icc.mk; sourceTree = "<group>"; };
+		70E783971BD6F278006949CA /* SuiteSparse_config_GPU_icc10.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuiteSparse_config_GPU_icc10.mk; sourceTree = "<group>"; };
+		70E783981BD6F278006949CA /* SuiteSparse_config_linux.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuiteSparse_config_linux.mk; sourceTree = "<group>"; };
+		70E7839A1BD6F278006949CA /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		70E7839B1BD6F278006949CA /* xerbla.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xerbla.c; sourceTree = "<group>"; };
+		70E7839C1BD6F278006949CA /* xerbla.f */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.fortran; path = xerbla.f; sourceTree = "<group>"; };
+		70E7839D1BD6F278006949CA /* xerbla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xerbla.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70E783711BD6F192006949CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E783A01BD6F278006949CA /* libccolamd.a in Frameworks */,
+				70E7839F1BD6F278006949CA /* ccolamd_l.o in Frameworks */,
+				70E783A51BD6F278006949CA /* libsuitesparseconfig.a in Frameworks */,
+				70E7839E1BD6F278006949CA /* ccolamd.o in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70E7836B1BD6F192006949CA = {
+			isa = PBXGroup;
+			children = (
+				70E783761BD6F192006949CA /* CCOLAMD */,
+				70E783751BD6F192006949CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70E783751BD6F192006949CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70E783741BD6F192006949CA /* libCCOLAMD.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70E783761BD6F192006949CA /* CCOLAMD */ = {
+			isa = PBXGroup;
+			children = (
+				70E783801BD6F278006949CA /* Include */,
+				70E783821BD6F278006949CA /* Lib */,
+				70E783871BD6F278006949CA /* Makefile */,
+				70E783881BD6F278006949CA /* README.txt */,
+				70E783891BD6F278006949CA /* Source */,
+				70E7838C1BD6F278006949CA /* SuiteSparse_config */,
+			);
+			path = CCOLAMD;
+			sourceTree = "<group>";
+		};
+		70E783801BD6F278006949CA /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				70E783811BD6F278006949CA /* ccolamd.h */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		70E783821BD6F278006949CA /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				70E783831BD6F278006949CA /* ccolamd.o */,
+				70E783841BD6F278006949CA /* ccolamd_l.o */,
+				70E783851BD6F278006949CA /* libccolamd.a */,
+				70E783861BD6F278006949CA /* Makefile */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		70E783891BD6F278006949CA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				70E7838A1BD6F278006949CA /* ccolamd.c */,
+				70E7838B1BD6F278006949CA /* ccolamd_global.c */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		70E7838C1BD6F278006949CA /* SuiteSparse_config */ = {
+			isa = PBXGroup;
+			children = (
+				70E7838D1BD6F278006949CA /* libsuitesparseconfig.a */,
+				70E7838E1BD6F278006949CA /* Makefile */,
+				70E7838F1BD6F278006949CA /* README.txt */,
+				70E783901BD6F278006949CA /* SuiteSparse_config.c */,
+				70E783911BD6F278006949CA /* SuiteSparse_config.h */,
+				70E783921BD6F278006949CA /* SuiteSparse_config.mk */,
+				70E783931BD6F278006949CA /* SuiteSparse_config_backslash.mk */,
+				70E783941BD6F278006949CA /* SuiteSparse_config_GPU_debug.mk */,
+				70E783951BD6F278006949CA /* SuiteSparse_config_GPU_gcc.mk */,
+				70E783961BD6F278006949CA /* SuiteSparse_config_GPU_icc.mk */,
+				70E783971BD6F278006949CA /* SuiteSparse_config_GPU_icc10.mk */,
+				70E783981BD6F278006949CA /* SuiteSparse_config_linux.mk */,
+				70E783991BD6F278006949CA /* xerbla */,
+			);
+			path = SuiteSparse_config;
+			sourceTree = "<group>";
+		};
+		70E783991BD6F278006949CA /* xerbla */ = {
+			isa = PBXGroup;
+			children = (
+				70E7839A1BD6F278006949CA /* Makefile */,
+				70E7839B1BD6F278006949CA /* xerbla.c */,
+				70E7839C1BD6F278006949CA /* xerbla.f */,
+				70E7839D1BD6F278006949CA /* xerbla.h */,
+			);
+			path = xerbla;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70E783731BD6F192006949CA /* CCOLAMD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70E7837D1BD6F192006949CA /* Build configuration list for PBXNativeTarget "CCOLAMD" */;
+			buildPhases = (
+				70E783701BD6F192006949CA /* Sources */,
+				70E783711BD6F192006949CA /* Frameworks */,
+				70E783721BD6F192006949CA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCOLAMD;
+			productName = CCOLAMD;
+			productReference = 70E783741BD6F192006949CA /* libCCOLAMD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70E7836C1BD6F192006949CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Xin Sun";
+				TargetAttributes = {
+					70E783731BD6F192006949CA = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 70E7836F1BD6F192006949CA /* Build configuration list for PBXProject "CCOLAMD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 70E7836B1BD6F192006949CA;
+			productRefGroup = 70E783751BD6F192006949CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70E783731BD6F192006949CA /* CCOLAMD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70E783701BD6F192006949CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E783A61BD6F278006949CA /* Makefile in Sources */,
+				70E783AA1BD6F278006949CA /* xerbla.f in Sources */,
+				70E783A41BD6F278006949CA /* ccolamd_global.c in Sources */,
+				70E783A71BD6F278006949CA /* SuiteSparse_config.c in Sources */,
+				70E783A31BD6F278006949CA /* ccolamd.c in Sources */,
+				70E783A21BD6F278006949CA /* Makefile in Sources */,
+				70E783A81BD6F278006949CA /* Makefile in Sources */,
+				70E783A11BD6F278006949CA /* Makefile in Sources */,
+				70E783A91BD6F278006949CA /* xerbla.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		70E7837B1BD6F192006949CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		70E7837C1BD6F192006949CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70E7837E1BD6F192006949CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CCOLAMD/Lib",
+					"$(PROJECT_DIR)/CCOLAMD/SuiteSparse_config",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		70E7837F1BD6F192006949CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CCOLAMD/Lib",
+					"$(PROJECT_DIR)/CCOLAMD/SuiteSparse_config",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70E7836F1BD6F192006949CA /* Build configuration list for PBXProject "CCOLAMD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E7837B1BD6F192006949CA /* Debug */,
+				70E7837C1BD6F192006949CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70E7837D1BD6F192006949CA /* Build configuration list for PBXNativeTarget "CCOLAMD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E7837E1BD6F192006949CA /* Debug */,
+				70E7837F1BD6F192006949CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70E7836C1BD6F192006949CA /* Project object */;
+}

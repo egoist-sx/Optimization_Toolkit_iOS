@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70E7827B1BD6EFF6006949CA /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 70E7823C1BD6EFF6006949CA /* Makefile */; settings = {ASSET_TAGS = (); }; };
+		70E7827C1BD6EFF6006949CA /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 70E7823D1BD6EFF6006949CA /* Makefile */; settings = {ASSET_TAGS = (); }; };
+		70E782831BD6EFF6006949CA /* amd.f in Sources */ = {isa = PBXBuildFile; fileRef = 70E782491BD6EFF6006949CA /* amd.f */; settings = {ASSET_TAGS = (); }; };
+		70E782841BD6EFF6006949CA /* amd_1.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E7824A1BD6EFF6006949CA /* amd_1.c */; settings = {ASSET_TAGS = (); }; };
+		70E782851BD6EFF6006949CA /* amd_2.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E7824B1BD6EFF6006949CA /* amd_2.c */; settings = {ASSET_TAGS = (); }; };
+		70E782861BD6EFF6006949CA /* amd_aat.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E7824C1BD6EFF6006949CA /* amd_aat.c */; settings = {ASSET_TAGS = (); }; };
+		70E782871BD6EFF6006949CA /* amd_control.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E7824D1BD6EFF6006949CA /* amd_control.c */; settings = {ASSET_TAGS = (); }; };
+		70E782881BD6EFF6006949CA /* amd_defaults.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E7824E1BD6EFF6006949CA /* amd_defaults.c */; settings = {ASSET_TAGS = (); }; };
+		70E782891BD6EFF6006949CA /* amd_dump.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E7824F1BD6EFF6006949CA /* amd_dump.c */; settings = {ASSET_TAGS = (); }; };
+		70E7828A1BD6EFF6006949CA /* amd_global.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E782501BD6EFF6006949CA /* amd_global.c */; settings = {ASSET_TAGS = (); }; };
+		70E7828B1BD6EFF6006949CA /* amd_info.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E782511BD6EFF6006949CA /* amd_info.c */; settings = {ASSET_TAGS = (); }; };
+		70E7828C1BD6EFF6006949CA /* amd_order.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E782521BD6EFF6006949CA /* amd_order.c */; settings = {ASSET_TAGS = (); }; };
+		70E7828D1BD6EFF6006949CA /* amd_post_tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E782531BD6EFF6006949CA /* amd_post_tree.c */; settings = {ASSET_TAGS = (); }; };
+		70E7828E1BD6EFF6006949CA /* amd_postorder.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E782541BD6EFF6006949CA /* amd_postorder.c */; settings = {ASSET_TAGS = (); }; };
+		70E7828F1BD6EFF6006949CA /* amd_preprocess.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E782551BD6EFF6006949CA /* amd_preprocess.c */; settings = {ASSET_TAGS = (); }; };
+		70E782901BD6EFF6006949CA /* amd_valid.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E782561BD6EFF6006949CA /* amd_valid.c */; settings = {ASSET_TAGS = (); }; };
+		70E782911BD6EFF6006949CA /* amdbar.f in Sources */ = {isa = PBXBuildFile; fileRef = 70E782571BD6EFF6006949CA /* amdbar.f */; settings = {ASSET_TAGS = (); }; };
+		70E782931BD6F01A006949CA /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E782921BD6F01A006949CA /* Accelerate.framework */; };
+		70E782A61BD6F080006949CA /* libsuitesparseconfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E782951BD6F080006949CA /* libsuitesparseconfig.a */; settings = {ASSET_TAGS = (); }; };
+		70E782A71BD6F080006949CA /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 70E782961BD6F080006949CA /* Makefile */; settings = {ASSET_TAGS = (); }; };
+		70E782A81BD6F080006949CA /* SuiteSparse_config.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E782981BD6F080006949CA /* SuiteSparse_config.c */; settings = {ASSET_TAGS = (); }; };
+		70E782A91BD6F080006949CA /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 70E782A21BD6F080006949CA /* Makefile */; settings = {ASSET_TAGS = (); }; };
+		70E782AA1BD6F080006949CA /* xerbla.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E782A31BD6F080006949CA /* xerbla.c */; settings = {ASSET_TAGS = (); }; };
+		70E782AB1BD6F080006949CA /* xerbla.f in Sources */ = {isa = PBXBuildFile; fileRef = 70E782A41BD6F080006949CA /* xerbla.f */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		70E781EE1BD6EFB6006949CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		70E781F01BD6EFB6006949CA /* libAMD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAMD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		70E7821E1BD6EFF6006949CA /* amd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amd.h; sourceTree = "<group>"; };
+		70E7821F1BD6EFF6006949CA /* amd_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amd_internal.h; sourceTree = "<group>"; };
+		70E7823C1BD6EFF6006949CA /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		70E7823D1BD6EFF6006949CA /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		70E782471BD6EFF6006949CA /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		70E782491BD6EFF6006949CA /* amd.f */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.fortran; path = amd.f; sourceTree = "<group>"; };
+		70E7824A1BD6EFF6006949CA /* amd_1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amd_1.c; sourceTree = "<group>"; };
+		70E7824B1BD6EFF6006949CA /* amd_2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amd_2.c; sourceTree = "<group>"; };
+		70E7824C1BD6EFF6006949CA /* amd_aat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amd_aat.c; sourceTree = "<group>"; };
+		70E7824D1BD6EFF6006949CA /* amd_control.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amd_control.c; sourceTree = "<group>"; };
+		70E7824E1BD6EFF6006949CA /* amd_defaults.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amd_defaults.c; sourceTree = "<group>"; };
+		70E7824F1BD6EFF6006949CA /* amd_dump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amd_dump.c; sourceTree = "<group>"; };
+		70E782501BD6EFF6006949CA /* amd_global.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amd_global.c; sourceTree = "<group>"; };
+		70E782511BD6EFF6006949CA /* amd_info.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amd_info.c; sourceTree = "<group>"; };
+		70E782521BD6EFF6006949CA /* amd_order.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amd_order.c; sourceTree = "<group>"; };
+		70E782531BD6EFF6006949CA /* amd_post_tree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amd_post_tree.c; sourceTree = "<group>"; };
+		70E782541BD6EFF6006949CA /* amd_postorder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amd_postorder.c; sourceTree = "<group>"; };
+		70E782551BD6EFF6006949CA /* amd_preprocess.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amd_preprocess.c; sourceTree = "<group>"; };
+		70E782561BD6EFF6006949CA /* amd_valid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amd_valid.c; sourceTree = "<group>"; };
+		70E782571BD6EFF6006949CA /* amdbar.f */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.fortran; path = amdbar.f; sourceTree = "<group>"; };
+		70E782921BD6F01A006949CA /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		70E782951BD6F080006949CA /* libsuitesparseconfig.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsuitesparseconfig.a; sourceTree = "<group>"; };
+		70E782961BD6F080006949CA /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		70E782971BD6F080006949CA /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		70E782981BD6F080006949CA /* SuiteSparse_config.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SuiteSparse_config.c; sourceTree = "<group>"; };
+		70E782991BD6F080006949CA /* SuiteSparse_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuiteSparse_config.h; sourceTree = "<group>"; };
+		70E7829A1BD6F080006949CA /* SuiteSparse_config.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuiteSparse_config.mk; sourceTree = "<group>"; };
+		70E7829B1BD6F080006949CA /* SuiteSparse_config_backslash.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuiteSparse_config_backslash.mk; sourceTree = "<group>"; };
+		70E7829C1BD6F080006949CA /* SuiteSparse_config_GPU_debug.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuiteSparse_config_GPU_debug.mk; sourceTree = "<group>"; };
+		70E7829D1BD6F080006949CA /* SuiteSparse_config_GPU_gcc.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuiteSparse_config_GPU_gcc.mk; sourceTree = "<group>"; };
+		70E7829E1BD6F080006949CA /* SuiteSparse_config_GPU_icc.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuiteSparse_config_GPU_icc.mk; sourceTree = "<group>"; };
+		70E7829F1BD6F080006949CA /* SuiteSparse_config_GPU_icc10.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuiteSparse_config_GPU_icc10.mk; sourceTree = "<group>"; };
+		70E782A01BD6F080006949CA /* SuiteSparse_config_linux.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuiteSparse_config_linux.mk; sourceTree = "<group>"; };
+		70E782A21BD6F080006949CA /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		70E782A31BD6F080006949CA /* xerbla.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xerbla.c; sourceTree = "<group>"; };
+		70E782A41BD6F080006949CA /* xerbla.f */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.fortran; path = xerbla.f; sourceTree = "<group>"; };
+		70E782A51BD6F080006949CA /* xerbla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xerbla.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70E781ED1BD6EFB6006949CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E782A61BD6F080006949CA /* libsuitesparseconfig.a in Frameworks */,
+				70E782931BD6F01A006949CA /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70E781E71BD6EFB5006949CA = {
+			isa = PBXGroup;
+			children = (
+				70E782921BD6F01A006949CA /* Accelerate.framework */,
+				70E781F21BD6EFB6006949CA /* AMD */,
+				70E781F11BD6EFB6006949CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70E781F11BD6EFB6006949CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70E781F01BD6EFB6006949CA /* libAMD.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70E781F21BD6EFB6006949CA /* AMD */ = {
+			isa = PBXGroup;
+			children = (
+				70E782941BD6F080006949CA /* SuiteSparse_config */,
+				70E7821D1BD6EFF6006949CA /* Include */,
+				70E782201BD6EFF6006949CA /* Lib */,
+				70E7823D1BD6EFF6006949CA /* Makefile */,
+				70E782471BD6EFF6006949CA /* README.txt */,
+				70E782481BD6EFF6006949CA /* Source */,
+			);
+			path = AMD;
+			sourceTree = "<group>";
+		};
+		70E7821D1BD6EFF6006949CA /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				70E7821E1BD6EFF6006949CA /* amd.h */,
+				70E7821F1BD6EFF6006949CA /* amd_internal.h */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		70E782201BD6EFF6006949CA /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				70E7823C1BD6EFF6006949CA /* Makefile */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		70E782481BD6EFF6006949CA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				70E782491BD6EFF6006949CA /* amd.f */,
+				70E7824A1BD6EFF6006949CA /* amd_1.c */,
+				70E7824B1BD6EFF6006949CA /* amd_2.c */,
+				70E7824C1BD6EFF6006949CA /* amd_aat.c */,
+				70E7824D1BD6EFF6006949CA /* amd_control.c */,
+				70E7824E1BD6EFF6006949CA /* amd_defaults.c */,
+				70E7824F1BD6EFF6006949CA /* amd_dump.c */,
+				70E782501BD6EFF6006949CA /* amd_global.c */,
+				70E782511BD6EFF6006949CA /* amd_info.c */,
+				70E782521BD6EFF6006949CA /* amd_order.c */,
+				70E782531BD6EFF6006949CA /* amd_post_tree.c */,
+				70E782541BD6EFF6006949CA /* amd_postorder.c */,
+				70E782551BD6EFF6006949CA /* amd_preprocess.c */,
+				70E782561BD6EFF6006949CA /* amd_valid.c */,
+				70E782571BD6EFF6006949CA /* amdbar.f */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		70E782941BD6F080006949CA /* SuiteSparse_config */ = {
+			isa = PBXGroup;
+			children = (
+				70E782951BD6F080006949CA /* libsuitesparseconfig.a */,
+				70E782961BD6F080006949CA /* Makefile */,
+				70E782971BD6F080006949CA /* README.txt */,
+				70E782981BD6F080006949CA /* SuiteSparse_config.c */,
+				70E782991BD6F080006949CA /* SuiteSparse_config.h */,
+				70E7829A1BD6F080006949CA /* SuiteSparse_config.mk */,
+				70E7829B1BD6F080006949CA /* SuiteSparse_config_backslash.mk */,
+				70E7829C1BD6F080006949CA /* SuiteSparse_config_GPU_debug.mk */,
+				70E7829D1BD6F080006949CA /* SuiteSparse_config_GPU_gcc.mk */,
+				70E7829E1BD6F080006949CA /* SuiteSparse_config_GPU_icc.mk */,
+				70E7829F1BD6F080006949CA /* SuiteSparse_config_GPU_icc10.mk */,
+				70E782A01BD6F080006949CA /* SuiteSparse_config_linux.mk */,
+				70E782A11BD6F080006949CA /* xerbla */,
+			);
+			path = SuiteSparse_config;
+			sourceTree = "<group>";
+		};
+		70E782A11BD6F080006949CA /* xerbla */ = {
+			isa = PBXGroup;
+			children = (
+				70E782A21BD6F080006949CA /* Makefile */,
+				70E782A31BD6F080006949CA /* xerbla.c */,
+				70E782A41BD6F080006949CA /* xerbla.f */,
+				70E782A51BD6F080006949CA /* xerbla.h */,
+			);
+			path = xerbla;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70E781EF1BD6EFB6006949CA /* AMD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70E781F91BD6EFB6006949CA /* Build configuration list for PBXNativeTarget "AMD" */;
+			buildPhases = (
+				70E781EC1BD6EFB6006949CA /* Sources */,
+				70E781ED1BD6EFB6006949CA /* Frameworks */,
+				70E781EE1BD6EFB6006949CA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMD;
+			productName = AMD;
+			productReference = 70E781F01BD6EFB6006949CA /* libAMD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70E781E81BD6EFB5006949CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Xin Sun";
+				TargetAttributes = {
+					70E781EF1BD6EFB6006949CA = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 70E781EB1BD6EFB5006949CA /* Build configuration list for PBXProject "AMD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 70E781E71BD6EFB5006949CA;
+			productRefGroup = 70E781F11BD6EFB6006949CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70E781EF1BD6EFB6006949CA /* AMD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70E781EC1BD6EFB6006949CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E782AB1BD6F080006949CA /* xerbla.f in Sources */,
+				70E782A71BD6F080006949CA /* Makefile in Sources */,
+				70E782911BD6EFF6006949CA /* amdbar.f in Sources */,
+				70E782841BD6EFF6006949CA /* amd_1.c in Sources */,
+				70E782A81BD6F080006949CA /* SuiteSparse_config.c in Sources */,
+				70E7828A1BD6EFF6006949CA /* amd_global.c in Sources */,
+				70E782851BD6EFF6006949CA /* amd_2.c in Sources */,
+				70E782831BD6EFF6006949CA /* amd.f in Sources */,
+				70E782881BD6EFF6006949CA /* amd_defaults.c in Sources */,
+				70E7827B1BD6EFF6006949CA /* Makefile in Sources */,
+				70E782871BD6EFF6006949CA /* amd_control.c in Sources */,
+				70E782A91BD6F080006949CA /* Makefile in Sources */,
+				70E7828E1BD6EFF6006949CA /* amd_postorder.c in Sources */,
+				70E782891BD6EFF6006949CA /* amd_dump.c in Sources */,
+				70E7828F1BD6EFF6006949CA /* amd_preprocess.c in Sources */,
+				70E7828C1BD6EFF6006949CA /* amd_order.c in Sources */,
+				70E7827C1BD6EFF6006949CA /* Makefile in Sources */,
+				70E782AA1BD6F080006949CA /* xerbla.c in Sources */,
+				70E7828D1BD6EFF6006949CA /* amd_post_tree.c in Sources */,
+				70E7828B1BD6EFF6006949CA /* amd_info.c in Sources */,
+				70E782901BD6EFF6006949CA /* amd_valid.c in Sources */,
+				70E782861BD6EFF6006949CA /* amd_aat.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		70E781F71BD6EFB6006949CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		70E781F81BD6EFB6006949CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70E781FA1BD6EFB6006949CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AMD/Lib",
+					"$(PROJECT_DIR)/AMD/SuiteSparse_config",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		70E781FB1BD6EFB6006949CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AMD/Lib",
+					"$(PROJECT_DIR)/AMD/SuiteSparse_config",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70E781EB1BD6EFB5006949CA /* Build configuration list for PBXProject "AMD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E781F71BD6EFB6006949CA /* Debug */,
+				70E781F81BD6EFB6006949CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70E781F91BD6EFB6006949CA /* Build configuration list for PBXNativeTarget "AMD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E781FA1BD6EFB6006949CA /* Debug */,
+				70E781FB1BD6EFB6006949CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70E781E81BD6EFB5006949CA /* Project object */;
+}

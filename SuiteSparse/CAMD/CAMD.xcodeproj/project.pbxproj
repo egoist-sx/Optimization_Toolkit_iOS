@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70E783001BD6F107006949CA /* camd_i_1.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E782C51BD6F107006949CA /* camd_i_1.o */; settings = {ASSET_TAGS = (); }; };
+		70E783011BD6F107006949CA /* camd_i_2.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E782C61BD6F107006949CA /* camd_i_2.o */; settings = {ASSET_TAGS = (); }; };
+		70E783021BD6F107006949CA /* camd_i_aat.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E782C71BD6F107006949CA /* camd_i_aat.o */; settings = {ASSET_TAGS = (); }; };
+		70E783031BD6F107006949CA /* camd_i_control.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E782C81BD6F107006949CA /* camd_i_control.o */; settings = {ASSET_TAGS = (); }; };
+		70E783041BD6F107006949CA /* camd_i_defaults.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E782C91BD6F107006949CA /* camd_i_defaults.o */; settings = {ASSET_TAGS = (); }; };
+		70E783051BD6F107006949CA /* camd_i_dump.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E782CA1BD6F107006949CA /* camd_i_dump.o */; settings = {ASSET_TAGS = (); }; };
+		70E783061BD6F107006949CA /* camd_i_info.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E782CB1BD6F107006949CA /* camd_i_info.o */; settings = {ASSET_TAGS = (); }; };
+		70E783071BD6F107006949CA /* camd_i_order.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E782CC1BD6F107006949CA /* camd_i_order.o */; settings = {ASSET_TAGS = (); }; };
+		70E783081BD6F107006949CA /* camd_i_postorder.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E782CD1BD6F107006949CA /* camd_i_postorder.o */; settings = {ASSET_TAGS = (); }; };
+		70E783091BD6F107006949CA /* camd_i_preprocess.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E782CE1BD6F107006949CA /* camd_i_preprocess.o */; settings = {ASSET_TAGS = (); }; };
+		70E7830A1BD6F107006949CA /* camd_i_valid.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E782CF1BD6F107006949CA /* camd_i_valid.o */; settings = {ASSET_TAGS = (); }; };
+		70E7830B1BD6F107006949CA /* camd_l_1.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E782D01BD6F107006949CA /* camd_l_1.o */; settings = {ASSET_TAGS = (); }; };
+		70E7830C1BD6F107006949CA /* camd_l_2.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E782D11BD6F107006949CA /* camd_l_2.o */; settings = {ASSET_TAGS = (); }; };
+		70E7830D1BD6F107006949CA /* camd_l_aat.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E782D21BD6F107006949CA /* camd_l_aat.o */; settings = {ASSET_TAGS = (); }; };
+		70E7830E1BD6F107006949CA /* camd_l_control.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E782D31BD6F107006949CA /* camd_l_control.o */; settings = {ASSET_TAGS = (); }; };
+		70E7830F1BD6F107006949CA /* camd_l_defaults.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E782D41BD6F107006949CA /* camd_l_defaults.o */; settings = {ASSET_TAGS = (); }; };
+		70E783101BD6F107006949CA /* camd_l_dump.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E782D51BD6F107006949CA /* camd_l_dump.o */; settings = {ASSET_TAGS = (); }; };
+		70E783111BD6F107006949CA /* camd_l_info.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E782D61BD6F107006949CA /* camd_l_info.o */; settings = {ASSET_TAGS = (); }; };
+		70E783121BD6F107006949CA /* camd_l_order.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E782D71BD6F107006949CA /* camd_l_order.o */; settings = {ASSET_TAGS = (); }; };
+		70E783131BD6F107006949CA /* camd_l_postorder.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E782D81BD6F107006949CA /* camd_l_postorder.o */; settings = {ASSET_TAGS = (); }; };
+		70E783141BD6F107006949CA /* camd_l_preprocess.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E782D91BD6F107006949CA /* camd_l_preprocess.o */; settings = {ASSET_TAGS = (); }; };
+		70E783151BD6F107006949CA /* camd_l_valid.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E782DA1BD6F107006949CA /* camd_l_valid.o */; settings = {ASSET_TAGS = (); }; };
+		70E783161BD6F107006949CA /* libcamd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E782DC1BD6F107006949CA /* libcamd.a */; settings = {ASSET_TAGS = (); }; };
+		70E783171BD6F107006949CA /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 70E782DE1BD6F107006949CA /* Makefile */; settings = {ASSET_TAGS = (); }; };
+		70E783181BD6F107006949CA /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 70E782DF1BD6F107006949CA /* Makefile */; settings = {ASSET_TAGS = (); }; };
+		70E783191BD6F107006949CA /* camd_1.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E782E21BD6F107006949CA /* camd_1.c */; settings = {ASSET_TAGS = (); }; };
+		70E7831A1BD6F107006949CA /* camd_2.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E782E31BD6F107006949CA /* camd_2.c */; settings = {ASSET_TAGS = (); }; };
+		70E7831B1BD6F107006949CA /* camd_aat.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E782E41BD6F107006949CA /* camd_aat.c */; settings = {ASSET_TAGS = (); }; };
+		70E7831C1BD6F107006949CA /* camd_control.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E782E51BD6F107006949CA /* camd_control.c */; settings = {ASSET_TAGS = (); }; };
+		70E7831D1BD6F107006949CA /* camd_defaults.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E782E61BD6F107006949CA /* camd_defaults.c */; settings = {ASSET_TAGS = (); }; };
+		70E7831E1BD6F107006949CA /* camd_dump.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E782E71BD6F107006949CA /* camd_dump.c */; settings = {ASSET_TAGS = (); }; };
+		70E7831F1BD6F107006949CA /* camd_global.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E782E81BD6F107006949CA /* camd_global.c */; settings = {ASSET_TAGS = (); }; };
+		70E783201BD6F107006949CA /* camd_info.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E782E91BD6F107006949CA /* camd_info.c */; settings = {ASSET_TAGS = (); }; };
+		70E783211BD6F107006949CA /* camd_order.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E782EA1BD6F107006949CA /* camd_order.c */; settings = {ASSET_TAGS = (); }; };
+		70E783221BD6F107006949CA /* camd_postorder.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E782EB1BD6F107006949CA /* camd_postorder.c */; settings = {ASSET_TAGS = (); }; };
+		70E783231BD6F107006949CA /* camd_preprocess.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E782EC1BD6F107006949CA /* camd_preprocess.c */; settings = {ASSET_TAGS = (); }; };
+		70E783241BD6F107006949CA /* camd_valid.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E782ED1BD6F107006949CA /* camd_valid.c */; settings = {ASSET_TAGS = (); }; };
+		70E783251BD6F107006949CA /* libsuitesparseconfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E782EF1BD6F107006949CA /* libsuitesparseconfig.a */; settings = {ASSET_TAGS = (); }; };
+		70E783261BD6F107006949CA /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 70E782F01BD6F107006949CA /* Makefile */; settings = {ASSET_TAGS = (); }; };
+		70E783271BD6F107006949CA /* SuiteSparse_config.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E782F21BD6F107006949CA /* SuiteSparse_config.c */; settings = {ASSET_TAGS = (); }; };
+		70E783281BD6F107006949CA /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 70E782FC1BD6F107006949CA /* Makefile */; settings = {ASSET_TAGS = (); }; };
+		70E783291BD6F107006949CA /* xerbla.c in Sources */ = {isa = PBXBuildFile; fileRef = 70E782FD1BD6F107006949CA /* xerbla.c */; settings = {ASSET_TAGS = (); }; };
+		70E7832A1BD6F107006949CA /* xerbla.f in Sources */ = {isa = PBXBuildFile; fileRef = 70E782FE1BD6F107006949CA /* xerbla.f */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		70E782B31BD6F0C9006949CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		70E782B51BD6F0C9006949CA /* libCAMD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCAMD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		70E782C21BD6F107006949CA /* camd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camd.h; sourceTree = "<group>"; };
+		70E782C31BD6F107006949CA /* camd_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camd_internal.h; sourceTree = "<group>"; };
+		70E782C51BD6F107006949CA /* camd_i_1.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = camd_i_1.o; sourceTree = "<group>"; };
+		70E782C61BD6F107006949CA /* camd_i_2.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = camd_i_2.o; sourceTree = "<group>"; };
+		70E782C71BD6F107006949CA /* camd_i_aat.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = camd_i_aat.o; sourceTree = "<group>"; };
+		70E782C81BD6F107006949CA /* camd_i_control.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = camd_i_control.o; sourceTree = "<group>"; };
+		70E782C91BD6F107006949CA /* camd_i_defaults.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = camd_i_defaults.o; sourceTree = "<group>"; };
+		70E782CA1BD6F107006949CA /* camd_i_dump.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = camd_i_dump.o; sourceTree = "<group>"; };
+		70E782CB1BD6F107006949CA /* camd_i_info.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = camd_i_info.o; sourceTree = "<group>"; };
+		70E782CC1BD6F107006949CA /* camd_i_order.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = camd_i_order.o; sourceTree = "<group>"; };
+		70E782CD1BD6F107006949CA /* camd_i_postorder.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = camd_i_postorder.o; sourceTree = "<group>"; };
+		70E782CE1BD6F107006949CA /* camd_i_preprocess.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = camd_i_preprocess.o; sourceTree = "<group>"; };
+		70E782CF1BD6F107006949CA /* camd_i_valid.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = camd_i_valid.o; sourceTree = "<group>"; };
+		70E782D01BD6F107006949CA /* camd_l_1.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = camd_l_1.o; sourceTree = "<group>"; };
+		70E782D11BD6F107006949CA /* camd_l_2.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = camd_l_2.o; sourceTree = "<group>"; };
+		70E782D21BD6F107006949CA /* camd_l_aat.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = camd_l_aat.o; sourceTree = "<group>"; };
+		70E782D31BD6F107006949CA /* camd_l_control.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = camd_l_control.o; sourceTree = "<group>"; };
+		70E782D41BD6F107006949CA /* camd_l_defaults.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = camd_l_defaults.o; sourceTree = "<group>"; };
+		70E782D51BD6F107006949CA /* camd_l_dump.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = camd_l_dump.o; sourceTree = "<group>"; };
+		70E782D61BD6F107006949CA /* camd_l_info.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = camd_l_info.o; sourceTree = "<group>"; };
+		70E782D71BD6F107006949CA /* camd_l_order.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = camd_l_order.o; sourceTree = "<group>"; };
+		70E782D81BD6F107006949CA /* camd_l_postorder.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = camd_l_postorder.o; sourceTree = "<group>"; };
+		70E782D91BD6F107006949CA /* camd_l_preprocess.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = camd_l_preprocess.o; sourceTree = "<group>"; };
+		70E782DA1BD6F107006949CA /* camd_l_valid.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = camd_l_valid.o; sourceTree = "<group>"; };
+		70E782DB1BD6F107006949CA /* GNUmakefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GNUmakefile; sourceTree = "<group>"; };
+		70E782DC1BD6F107006949CA /* libcamd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcamd.a; sourceTree = "<group>"; };
+		70E782DD1BD6F107006949CA /* libcamd.def */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libcamd.def; sourceTree = "<group>"; };
+		70E782DE1BD6F107006949CA /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		70E782DF1BD6F107006949CA /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		70E782E01BD6F107006949CA /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		70E782E21BD6F107006949CA /* camd_1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = camd_1.c; sourceTree = "<group>"; };
+		70E782E31BD6F107006949CA /* camd_2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = camd_2.c; sourceTree = "<group>"; };
+		70E782E41BD6F107006949CA /* camd_aat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = camd_aat.c; sourceTree = "<group>"; };
+		70E782E51BD6F107006949CA /* camd_control.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = camd_control.c; sourceTree = "<group>"; };
+		70E782E61BD6F107006949CA /* camd_defaults.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = camd_defaults.c; sourceTree = "<group>"; };
+		70E782E71BD6F107006949CA /* camd_dump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = camd_dump.c; sourceTree = "<group>"; };
+		70E782E81BD6F107006949CA /* camd_global.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = camd_global.c; sourceTree = "<group>"; };
+		70E782E91BD6F107006949CA /* camd_info.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = camd_info.c; sourceTree = "<group>"; };
+		70E782EA1BD6F107006949CA /* camd_order.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = camd_order.c; sourceTree = "<group>"; };
+		70E782EB1BD6F107006949CA /* camd_postorder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = camd_postorder.c; sourceTree = "<group>"; };
+		70E782EC1BD6F107006949CA /* camd_preprocess.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = camd_preprocess.c; sourceTree = "<group>"; };
+		70E782ED1BD6F107006949CA /* camd_valid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = camd_valid.c; sourceTree = "<group>"; };
+		70E782EF1BD6F107006949CA /* libsuitesparseconfig.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsuitesparseconfig.a; sourceTree = "<group>"; };
+		70E782F01BD6F107006949CA /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		70E782F11BD6F107006949CA /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		70E782F21BD6F107006949CA /* SuiteSparse_config.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SuiteSparse_config.c; sourceTree = "<group>"; };
+		70E782F31BD6F107006949CA /* SuiteSparse_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuiteSparse_config.h; sourceTree = "<group>"; };
+		70E782F41BD6F107006949CA /* SuiteSparse_config.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuiteSparse_config.mk; sourceTree = "<group>"; };
+		70E782F51BD6F107006949CA /* SuiteSparse_config_backslash.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuiteSparse_config_backslash.mk; sourceTree = "<group>"; };
+		70E782F61BD6F107006949CA /* SuiteSparse_config_GPU_debug.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuiteSparse_config_GPU_debug.mk; sourceTree = "<group>"; };
+		70E782F71BD6F107006949CA /* SuiteSparse_config_GPU_gcc.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuiteSparse_config_GPU_gcc.mk; sourceTree = "<group>"; };
+		70E782F81BD6F107006949CA /* SuiteSparse_config_GPU_icc.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuiteSparse_config_GPU_icc.mk; sourceTree = "<group>"; };
+		70E782F91BD6F107006949CA /* SuiteSparse_config_GPU_icc10.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuiteSparse_config_GPU_icc10.mk; sourceTree = "<group>"; };
+		70E782FA1BD6F107006949CA /* SuiteSparse_config_linux.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuiteSparse_config_linux.mk; sourceTree = "<group>"; };
+		70E782FC1BD6F107006949CA /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		70E782FD1BD6F107006949CA /* xerbla.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xerbla.c; sourceTree = "<group>"; };
+		70E782FE1BD6F107006949CA /* xerbla.f */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.fortran; path = xerbla.f; sourceTree = "<group>"; };
+		70E782FF1BD6F107006949CA /* xerbla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xerbla.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70E782B21BD6F0C9006949CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E783051BD6F107006949CA /* camd_i_dump.o in Frameworks */,
+				70E783021BD6F107006949CA /* camd_i_aat.o in Frameworks */,
+				70E783001BD6F107006949CA /* camd_i_1.o in Frameworks */,
+				70E783071BD6F107006949CA /* camd_i_order.o in Frameworks */,
+				70E783131BD6F107006949CA /* camd_l_postorder.o in Frameworks */,
+				70E7830E1BD6F107006949CA /* camd_l_control.o in Frameworks */,
+				70E7830F1BD6F107006949CA /* camd_l_defaults.o in Frameworks */,
+				70E7830A1BD6F107006949CA /* camd_i_valid.o in Frameworks */,
+				70E783141BD6F107006949CA /* camd_l_preprocess.o in Frameworks */,
+				70E7830C1BD6F107006949CA /* camd_l_2.o in Frameworks */,
+				70E783091BD6F107006949CA /* camd_i_preprocess.o in Frameworks */,
+				70E783101BD6F107006949CA /* camd_l_dump.o in Frameworks */,
+				70E783031BD6F107006949CA /* camd_i_control.o in Frameworks */,
+				70E7830D1BD6F107006949CA /* camd_l_aat.o in Frameworks */,
+				70E783041BD6F107006949CA /* camd_i_defaults.o in Frameworks */,
+				70E783121BD6F107006949CA /* camd_l_order.o in Frameworks */,
+				70E783111BD6F107006949CA /* camd_l_info.o in Frameworks */,
+				70E783161BD6F107006949CA /* libcamd.a in Frameworks */,
+				70E783251BD6F107006949CA /* libsuitesparseconfig.a in Frameworks */,
+				70E783081BD6F107006949CA /* camd_i_postorder.o in Frameworks */,
+				70E783151BD6F107006949CA /* camd_l_valid.o in Frameworks */,
+				70E783011BD6F107006949CA /* camd_i_2.o in Frameworks */,
+				70E783061BD6F107006949CA /* camd_i_info.o in Frameworks */,
+				70E7830B1BD6F107006949CA /* camd_l_1.o in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70E782AC1BD6F0C9006949CA = {
+			isa = PBXGroup;
+			children = (
+				70E782B71BD6F0C9006949CA /* CAMD */,
+				70E782B61BD6F0C9006949CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70E782B61BD6F0C9006949CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70E782B51BD6F0C9006949CA /* libCAMD.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70E782B71BD6F0C9006949CA /* CAMD */ = {
+			isa = PBXGroup;
+			children = (
+				70E782C11BD6F107006949CA /* Include */,
+				70E782C41BD6F107006949CA /* Lib */,
+				70E782DF1BD6F107006949CA /* Makefile */,
+				70E782E01BD6F107006949CA /* README.txt */,
+				70E782E11BD6F107006949CA /* Source */,
+				70E782EE1BD6F107006949CA /* SuiteSparse_config */,
+			);
+			path = CAMD;
+			sourceTree = "<group>";
+		};
+		70E782C11BD6F107006949CA /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				70E782C21BD6F107006949CA /* camd.h */,
+				70E782C31BD6F107006949CA /* camd_internal.h */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		70E782C41BD6F107006949CA /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				70E782C51BD6F107006949CA /* camd_i_1.o */,
+				70E782C61BD6F107006949CA /* camd_i_2.o */,
+				70E782C71BD6F107006949CA /* camd_i_aat.o */,
+				70E782C81BD6F107006949CA /* camd_i_control.o */,
+				70E782C91BD6F107006949CA /* camd_i_defaults.o */,
+				70E782CA1BD6F107006949CA /* camd_i_dump.o */,
+				70E782CB1BD6F107006949CA /* camd_i_info.o */,
+				70E782CC1BD6F107006949CA /* camd_i_order.o */,
+				70E782CD1BD6F107006949CA /* camd_i_postorder.o */,
+				70E782CE1BD6F107006949CA /* camd_i_preprocess.o */,
+				70E782CF1BD6F107006949CA /* camd_i_valid.o */,
+				70E782D01BD6F107006949CA /* camd_l_1.o */,
+				70E782D11BD6F107006949CA /* camd_l_2.o */,
+				70E782D21BD6F107006949CA /* camd_l_aat.o */,
+				70E782D31BD6F107006949CA /* camd_l_control.o */,
+				70E782D41BD6F107006949CA /* camd_l_defaults.o */,
+				70E782D51BD6F107006949CA /* camd_l_dump.o */,
+				70E782D61BD6F107006949CA /* camd_l_info.o */,
+				70E782D71BD6F107006949CA /* camd_l_order.o */,
+				70E782D81BD6F107006949CA /* camd_l_postorder.o */,
+				70E782D91BD6F107006949CA /* camd_l_preprocess.o */,
+				70E782DA1BD6F107006949CA /* camd_l_valid.o */,
+				70E782DB1BD6F107006949CA /* GNUmakefile */,
+				70E782DC1BD6F107006949CA /* libcamd.a */,
+				70E782DD1BD6F107006949CA /* libcamd.def */,
+				70E782DE1BD6F107006949CA /* Makefile */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		70E782E11BD6F107006949CA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				70E782E21BD6F107006949CA /* camd_1.c */,
+				70E782E31BD6F107006949CA /* camd_2.c */,
+				70E782E41BD6F107006949CA /* camd_aat.c */,
+				70E782E51BD6F107006949CA /* camd_control.c */,
+				70E782E61BD6F107006949CA /* camd_defaults.c */,
+				70E782E71BD6F107006949CA /* camd_dump.c */,
+				70E782E81BD6F107006949CA /* camd_global.c */,
+				70E782E91BD6F107006949CA /* camd_info.c */,
+				70E782EA1BD6F107006949CA /* camd_order.c */,
+				70E782EB1BD6F107006949CA /* camd_postorder.c */,
+				70E782EC1BD6F107006949CA /* camd_preprocess.c */,
+				70E782ED1BD6F107006949CA /* camd_valid.c */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		70E782EE1BD6F107006949CA /* SuiteSparse_config */ = {
+			isa = PBXGroup;
+			children = (
+				70E782EF1BD6F107006949CA /* libsuitesparseconfig.a */,
+				70E782F01BD6F107006949CA /* Makefile */,
+				70E782F11BD6F107006949CA /* README.txt */,
+				70E782F21BD6F107006949CA /* SuiteSparse_config.c */,
+				70E782F31BD6F107006949CA /* SuiteSparse_config.h */,
+				70E782F41BD6F107006949CA /* SuiteSparse_config.mk */,
+				70E782F51BD6F107006949CA /* SuiteSparse_config_backslash.mk */,
+				70E782F61BD6F107006949CA /* SuiteSparse_config_GPU_debug.mk */,
+				70E782F71BD6F107006949CA /* SuiteSparse_config_GPU_gcc.mk */,
+				70E782F81BD6F107006949CA /* SuiteSparse_config_GPU_icc.mk */,
+				70E782F91BD6F107006949CA /* SuiteSparse_config_GPU_icc10.mk */,
+				70E782FA1BD6F107006949CA /* SuiteSparse_config_linux.mk */,
+				70E782FB1BD6F107006949CA /* xerbla */,
+			);
+			path = SuiteSparse_config;
+			sourceTree = "<group>";
+		};
+		70E782FB1BD6F107006949CA /* xerbla */ = {
+			isa = PBXGroup;
+			children = (
+				70E782FC1BD6F107006949CA /* Makefile */,
+				70E782FD1BD6F107006949CA /* xerbla.c */,
+				70E782FE1BD6F107006949CA /* xerbla.f */,
+				70E782FF1BD6F107006949CA /* xerbla.h */,
+			);
+			path = xerbla;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70E782B41BD6F0C9006949CA /* CAMD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70E782BE1BD6F0C9006949CA /* Build configuration list for PBXNativeTarget "CAMD" */;
+			buildPhases = (
+				70E782B11BD6F0C9006949CA /* Sources */,
+				70E782B21BD6F0C9006949CA /* Frameworks */,
+				70E782B31BD6F0C9006949CA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAMD;
+			productName = CAMD;
+			productReference = 70E782B51BD6F0C9006949CA /* libCAMD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70E782AD1BD6F0C9006949CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Xin Sun";
+				TargetAttributes = {
+					70E782B41BD6F0C9006949CA = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 70E782B01BD6F0C9006949CA /* Build configuration list for PBXProject "CAMD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 70E782AC1BD6F0C9006949CA;
+			productRefGroup = 70E782B61BD6F0C9006949CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70E782B41BD6F0C9006949CA /* CAMD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70E782B11BD6F0C9006949CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E783261BD6F107006949CA /* Makefile in Sources */,
+				70E783281BD6F107006949CA /* Makefile in Sources */,
+				70E783191BD6F107006949CA /* camd_1.c in Sources */,
+				70E783271BD6F107006949CA /* SuiteSparse_config.c in Sources */,
+				70E7831D1BD6F107006949CA /* camd_defaults.c in Sources */,
+				70E783181BD6F107006949CA /* Makefile in Sources */,
+				70E7831C1BD6F107006949CA /* camd_control.c in Sources */,
+				70E7832A1BD6F107006949CA /* xerbla.f in Sources */,
+				70E7831F1BD6F107006949CA /* camd_global.c in Sources */,
+				70E783171BD6F107006949CA /* Makefile in Sources */,
+				70E783211BD6F107006949CA /* camd_order.c in Sources */,
+				70E783221BD6F107006949CA /* camd_postorder.c in Sources */,
+				70E783201BD6F107006949CA /* camd_info.c in Sources */,
+				70E783241BD6F107006949CA /* camd_valid.c in Sources */,
+				70E783291BD6F107006949CA /* xerbla.c in Sources */,
+				70E783231BD6F107006949CA /* camd_preprocess.c in Sources */,
+				70E7831A1BD6F107006949CA /* camd_2.c in Sources */,
+				70E7831E1BD6F107006949CA /* camd_dump.c in Sources */,
+				70E7831B1BD6F107006949CA /* camd_aat.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		70E782BC1BD6F0C9006949CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		70E782BD1BD6F0C9006949CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70E782BF1BD6F0C9006949CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CAMD/Lib",
+					"$(PROJECT_DIR)/CAMD/SuiteSparse_config",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		70E782C01BD6F0C9006949CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CAMD/Lib",
+					"$(PROJECT_DIR)/CAMD/SuiteSparse_config",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70E782B01BD6F0C9006949CA /* Build configuration list for PBXProject "CAMD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E782BC1BD6F0C9006949CA /* Debug */,
+				70E782BD1BD6F0C9006949CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70E782BE1BD6F0C9006949CA /* Build configuration list for PBXNativeTarget "CAMD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E782BF1BD6F0C9006949CA /* Debug */,
+				70E782C01BD6F0C9006949CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70E782AD1BD6F0C9006949CA /* Project object */;
+}
